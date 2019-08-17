@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="images.html"> />
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body background="images.html/pat.jpg">
+    <style>
+        body {
+            background-size: 100% 180%;
+            background-repeat: no-repeat;
+        }
+        
+        ul {
+            list-style-type: none;
+            margin: 0px;
+            padding: 0;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            overflow: hidden;
+            background-color: white;
+        }
+        
+        li {
+            float: right;
+        }
+        
+        li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 40px 40px;
+            text-decoration: none;
+            margin-right: 40px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-style: oblique;
+            height: 10px;
+            margin-top: 7px;
+        }
+        
+        li a.active {
+            background-color: steelblue;
+        }
+        
+        li a:hover:not(.active) {
+            background-color: turquoise;
+            font-style: italic;
+            height: 8px;
+            block-size: 8px;
+        }
+        
+        .image {
+            margin-top: 100px;
+            height: 400px;
+            width: 400px;
+            border-radius: 15px;
+            border: 0%;
+            border-style: none;
+        }
+        
+        .left {
+            float: left;
+        }
+        
+        .wrapper {
+            width: "100%";
+            border: 1px solid black;
+            overflow: hidden;
+            /* add this to contain floated children */
+        }
+        
+        #img {
+            height: 90px;
+            width: 90px;
+            margin-left: 20px;
+        }
+        
+        .first {
+            display: inline-block;
+            width: "50%";
+            /* add this */
+            border: 1px solid red;
+        }
+        
+        .second {
+            display: inline-block;
+            width: "50%";
+            border: 1px solid green;
+            /* add this */
+        }
+    </style>
+
+
+    <ul>
+        <li><a href="#contacts">Contacts</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#home">Home</a></li>
+
+    </ul>
+
+
+
+
+    <div class="container" style="margin-top:40px">
+        <div class="row">
+            <div class="col">
+                <img class="image" src="images.html/20190526_232551.jpg" />
+            </div>
+            <div class="col" style="padding-left:100px;padding-top:250px;">
+                <b style="font-style: italic">THIS IS ME</b><br/>
+                <p style="font-size:3em; background:none; color:goldenrod"><strong>HYERA, MARY E.</strong> </p>
+                <p style="font-size: 1em; background:none;">
+                    <b> Soon you gonna realize why people call me a nine tailedfox!!!</b></p>
+
+
+            </div>
+            <div class="w-100"></div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
